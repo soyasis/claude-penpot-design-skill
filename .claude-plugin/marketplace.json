@@ -1,0 +1,49 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "penpot-design-skill",
+  "description": "Claude Code skill for Penpot design automation",
+  "owner": {
+    "name": "soyasis",
+    "url": "https://github.com/soyasis"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "homepage": "https://github.com/soyasis/claude-penpot-design-skill"
+  },
+  "plugins": [
+    {
+      "name": "penpot-design",
+      "source": "./skills/penpot-design",
+      "description": "Design and manipulate Penpot projects using the Penpot MCP Plugin. Create shapes, boards, layouts, styling, components, and generate CSS/HTML from designs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "soyasis",
+        "url": "https://github.com/soyasis"
+      },
+      "category": "design",
+      "homepage": "https://github.com/soyasis/claude-penpot-design-skill",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/soyasis/claude-penpot-design-skill"
+      },
+      "license": "MIT",
+      "keywords": [
+        "claude",
+        "skill",
+        "penpot",
+        "design",
+        "ui",
+        "components",
+        "design-to-code",
+        "mcp",
+        "design-system",
+        "css",
+        "html",
+        "frontend"
+      ],
+      "skills": [
+        "penpot-design"
+      ]
+    }
+  ]
+}
