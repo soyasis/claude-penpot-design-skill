@@ -1,0 +1,31 @@
+{
+  "name": "penpot-design",
+  "version": "1.0.0",
+  "description": "Design and manipulate Penpot projects using the Penpot MCP Plugin. Create shapes, boards, layouts, styling, components, and generate CSS/HTML from designs.",
+  "author": {
+    "name": "soyasis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyasis/claude-penpot-design-skill"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/soyasis/claude-penpot-design-skill#readme",
+  "keywords": [
+    "claude",
+    "skill",
+    "penpot",
+    "design",
+    "ui",
+    "components",
+    "design-to-code",
+    "mcp",
+    "design-system",
+    "css",
+    "html",
+    "frontend"
+  ],
+  "paths": {
+    "skills": "skills/"
+  }
+}
