@@ -48,6 +48,18 @@ Download the `penpot-design.skill` file and install it in Claude Code:
 2. Navigate to Settings > Skills
 3. Click "Install Skill" and select the `.skill` file
 
+## Compatible Skills
+
+Enhance your design workflow by combining this skill with other complementary skills:
+
+- **[Frontend Design](https://claude-plugins.dev/skills/@anthropics/claude-code/frontend-design)** - Create distinctive, production-grade frontend interfaces with high design quality
+
+  ```bash
+  npx skills-installer install @anthropics/claude-code/frontend-design
+  ```
+
+Use these skills together to design in Penpot and implement directly in code, or vice versa!
+
 ## Quick Start
 
 Once installed, the skill activates automatically when you:
